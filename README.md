@@ -1,81 +1,78 @@
-# blog-tecnico
-Blog técnico para documentación de proyectos.
-# Cómo resolví un problema de rendimiento en una aplicación web
+Mi primera experiencia creando y publicando un blog técnico con GitHub Pages
+Contexto
 
-## Contexto
+Como parte de una actividad de la cursada, el objetivo era crear y publicar un blog técnico utilizando una plataforma con control de versiones. Elegí GitHub Pages porque permite alojar un sitio web de forma gratuita y utilizar Git para registrar todos los cambios realizados durante el desarrollo.
 
-Durante el desarrollo de una aplicación web para la gestión de tareas, el equipo comenzó a detectar demoras significativas al cargar el panel principal. A medida que aumentaba la cantidad de registros, el tiempo de respuesta también crecía, afectando la experiencia del usuario.
+Aunque ya conocía GitHub de forma básica, era la primera vez que publicaba un sitio web utilizando GitHub Pages y documentaba el proceso como una entrada técnica.
 
-El proyecto utilizaba Git para el control de versiones y GitHub como plataforma de colaboración.
+Problema
 
----
+El principal desafío fue comprender el flujo completo de trabajo: crear un repositorio público, organizar el contenido en formato Markdown, configurar GitHub Pages y verificar que el sitio quedara disponible públicamente.
 
-## Problema
+Además, tuve que entender cómo el control de versiones registra los cambios realizados mediante commits y cómo utilizar esa información como evidencia del proceso de desarrollo.
 
-El principal inconveniente era que la página inicial realizaba múltiples consultas innecesarias a la base de datos, generando tiempos de carga superiores a los 5 segundos.
+Acciones realizadas
 
-Luego de analizar el código, se identificaron tres causas principales:
+Para resolver el desafío seguí los siguientes pasos:
 
-* Consultas repetidas a la base de datos.
-* Falta de paginación en los listados.
-* Procesamiento de información que podía realizarse previamente.
+Creé un repositorio público en GitHub destinado exclusivamente al blog técnico.
+Configuré el repositorio para utilizar GitHub Pages como plataforma de publicación.
+Escribí la entrada del blog utilizando Markdown para mantener una estructura clara y fácil de leer.
+Realicé varios commits durante el desarrollo para registrar cada cambio importante.
+Verifiqué que el sitio estuviera publicado correctamente y que la URL fuera accesible desde cualquier navegador.
 
----
+Post-mortem
 
-## Acciones realizadas
+¿Qué salió bien?
+La publicación mediante GitHub Pages resultó sencilla una vez comprendida la configuración.
+El uso de Git permitió mantener un historial claro de los cambios realizados.
+La documentación quedó organizada siguiendo una estructura técnica.
 
-Se siguió el siguiente proceso para solucionar el problema:
+¿Qué podría haber salido mejor?
+Al principio desconocía cómo funcionaba GitHub Pages y tuve que investigar la configuración adecuada.
+Inicialmente la entrada era demasiado genérica y no reflejaba mi experiencia real.
 
-1. Se analizaron los tiempos de respuesta utilizando las herramientas de desarrollo del navegador.
-2. Se identificaron las consultas más costosas.
-3. Se optimizaron las consultas SQL eliminando redundancias.
-4. Se implementó paginación para limitar la cantidad de registros cargados.
-5. Se realizaron pruebas comparando el rendimiento antes y después de los cambios.
+¿Qué haría diferente la próxima vez?
+Planificaría previamente la estructura del artículo antes de comenzar a escribir.
+Realizaría commits más pequeños y descriptivos durante todo el proceso.
+Agregaría imágenes o capturas de pantalla para complementar la documentación.
 
-### Post-mortem
+Aprendizajes
 
-Una vez resuelto el problema, el equipo realizó un análisis para identificar oportunidades de mejora.
+Esta actividad me permitió comprender mejor el flujo de trabajo utilizado en muchos proyectos de desarrollo de software.
 
-Aspectos positivos:
+Los principales aprendizajes fueron:
 
-* Se detectó rápidamente la causa del problema.
-* El trabajo quedó correctamente documentado.
-* Se validaron los cambios mediante pruebas.
+Publicar un sitio web utilizando GitHub Pages.
+Utilizar Markdown para redactar documentación técnica.
+Comprender la importancia del control de versiones mediante Git.
+Registrar el progreso del proyecto mediante commits claros y organizados.
+Documentar tanto los aciertos como las oportunidades de mejora mediante un post-mortem.
+Evidencia de control de versiones
 
-Aspectos a mejorar:
-
-* Incorporar revisiones de rendimiento durante el desarrollo.
-* Definir métricas antes de implementar nuevas funcionalidades.
-* Automatizar pruebas de rendimiento para futuras versiones.
-
----
-
-## Aprendizajes
-
-Esta experiencia permitió comprender que:
-
-* El rendimiento debe considerarse desde las primeras etapas del desarrollo.
-* Los pequeños cambios pueden generar mejoras importantes.
-* La documentación y el control de versiones facilitan el trabajo colaborativo.
-* Realizar un post-mortem ayuda a evitar que el mismo problema vuelva a ocurrir.
-
----
-
-## Evidencia de control de versiones
-
-Repositorio:
+Repositorio
 
 https://github.com/tomascanone2/blog-tecnico
 
-Commits relevantes:
+Historial de commits
 
-* Commit inicial de la solución
-* Commit de optimización de consultas
-* Commit de implementación de paginación
-* Commit con documentación del post-mortem
+https://github.com/tomascanone2/blog-tecnico/commits/main/
 
----
+Reflexión sobre el feedback radicalmente sincero
 
-## Reflexión sobre el feedback radicalmente sincero
+Durante el desarrollo recibí la observación de que la primera versión del artículo era demasiado genérica y no representaba un desafío técnico real. A partir de ese feedback decidí reescribir la entrada utilizando mi propia experiencia durante la creación del blog, describiendo los problemas que realmente encontré, las acciones que realicé y los aprendizajes obtenidos. Esto hizo que la documentación fuera más auténtica, clara y alineada con el objetivo de la actividad.
 
-Durante el desarrollo procuré recibir comentarios directos sobre las decisiones técnicas tomadas. En lugar de interpretar las observaciones como críticas personales, las utilicé para mejorar la calidad de la solución. Gracias a este enfoque fue posible detectar oportunidades de optimización que inicialmente habían pasado desapercibidas y fortalecer tanto el código como la forma de trabajar en equipo.
+
+Enlaces
+
+Blog publicado
+
+https://tomascanone2.github.io/blog-tecnico/
+
+Repositorio
+
+https://github.com/tomascanone2/blog-tecnico
+
+Commits
+
+https://github.com/tomascanone2/blog-tecnico/commits/main/
