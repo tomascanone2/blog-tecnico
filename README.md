@@ -65,7 +65,7 @@ Esta experiencia permitió comprender que:
 
 Repositorio:
 
-https://github.com/USUARIO/NOMBRE-REPOSITORIO
+https://github.com/tomascanone2/blog-tecnico
 
 Commits relevantes:
 
@@ -73,8 +73,6 @@ Commits relevantes:
 * Commit de optimización de consultas
 * Commit de implementación de paginación
 * Commit con documentación del post-mortem
-
-(Una vez publicado el repositorio, reemplazar estos enlaces por los reales de GitHub).
 
 ---
 
