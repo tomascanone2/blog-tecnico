@@ -104,4 +104,66 @@ adaptación para dispositivos móviles
 tiempos de carga optimizados mediante imágenes comprimidas
 Post-Mortem Constructivo
 
+Durante el desarrollo del proyecto se realizó un análisis retrospectivo para identificar oportunidades de mejora.
 
+Línea de tiempo
+Día 1
+
+Se definieron los objetivos del sitio y el perfil del cliente.
+
+Día 2
+
+Se diseñó la estructura general de la página.
+
+Día 3
+
+Se organizaron las galerías de fotografías y se decidió el estilo visual.
+
+Día 4
+
+Se realizaron ajustes de navegación y experiencia de usuario.
+
+Día 5
+
+Se revisó el contenido completo y se preparó la publicación del proyecto.
+
+Causas identificadas
+
+Las principales dificultades fueron:
+
+exceso de información inicial
+organización poco clara del portfolio
+dificultad para priorizar contenidos
+necesidad de adaptar el diseño para celulares
+Soluciones implementadas
+
+Para resolver estos problemas se decidió:
+
+simplificar el menú principal
+agrupar las fotografías por categorías
+utilizar botones de acción claros
+reducir la cantidad de texto
+mejorar la jerarquía visual
+Aprendizajes
+
+Este proyecto permitió comprender que un buen sitio web no depende únicamente del diseño visual.
+
+También resulta fundamental:
+
+organizar correctamente la información
+facilitar la navegación
+pensar primero en la experiencia del usuario
+optimizar el rendimiento del sitio
+planificar el contenido antes de comenzar a diseñar
+
+Además, comprendí la importancia de documentar el desarrollo mediante un sistema de control de versiones para mantener un historial de cambios y facilitar futuras mejoras.
+
+Reflexión sobre Feedback Radicalmente Sincero
+
+Durante el proyecto recibí observaciones relacionadas con la organización del contenido y la claridad de la navegación.
+
+En lugar de interpretar esas devoluciones como críticas personales, las utilicé para mejorar el diseño.
+
+A partir del feedback simplifiqué la estructura del sitio, eliminé elementos innecesarios y prioricé la experiencia del usuario.
+
+Este proceso me permitió comprender que recibir comentarios sinceros durante el desarrollo ayuda a detectar problemas antes de finalizar el proyecto y produce un resultado considerablemente mejor.
