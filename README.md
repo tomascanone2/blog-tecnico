@@ -60,3 +60,48 @@ También fue necesario encontrar una estructura que permitiera mostrar distintos
 Otro desafío consistió en mantener una estética minimalista que transmitiera profesionalismo sin perder funcionalidad.
 
 Finalmente surgió la necesidad de pensar la página desde dispositivos móviles, ya que la mayor parte del tráfico proviene de redes sociales.
+
+Acciones realizadas
+Acción 1 — Investigación
+
+Se analizaron sitios web de fotógrafos profesionales para identificar buenas prácticas relacionadas con:
+
+estructura
+navegación
+organización del portfolio
+llamados a la acción (CTA)
+Acción 2 — Diseño de la arquitectura
+
+Se definieron las principales secciones del sitio:
+
+Inicio
+Portfolio
+Servicios
+Sobre mí
+Contacto
+
+Esta organización permitió que la navegación fuera intuitiva y redujera la cantidad de clics necesarios para encontrar información.
+
+Acción 3 — Diseño visual
+
+Se propuso una estética minimalista utilizando:
+
+fondo blanco
+tipografía moderna
+imágenes de gran tamaño
+pocos elementos gráficos
+
+La prioridad fue que las fotografías fueran las protagonistas.
+
+Acción 4 — Optimización de la experiencia del usuario
+
+Se incorporaron mejoras como:
+
+navegación simple
+botones visibles
+formulario de contacto directo
+adaptación para dispositivos móviles
+tiempos de carga optimizados mediante imágenes comprimidas
+Post-Mortem Constructivo
+
+
